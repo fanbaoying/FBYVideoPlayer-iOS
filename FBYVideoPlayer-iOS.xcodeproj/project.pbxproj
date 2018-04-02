@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457177392072120B00965CF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457177382072120B00965CF6 /* AppDelegate.m */; };
+		4571773C2072120B00965CF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571773B2072120B00965CF6 /* ViewController.m */; };
+		4571773F2072120B00965CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4571773D2072120B00965CF6 /* Main.storyboard */; };
+		457177412072120B00965CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457177402072120B00965CF6 /* Assets.xcassets */; };
+		457177442072120B00965CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457177422072120B00965CF6 /* LaunchScreen.storyboard */; };
+		457177472072120B00965CF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457177462072120B00965CF6 /* main.m */; };
+		457177512072120B00965CF6 /* FBYVideoPlayer_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457177502072120B00965CF6 /* FBYVideoPlayer_iOSTests.m */; };
+		4571775C2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571775B2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4571774D2072120B00965CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4571772C2072120B00965CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457177332072120B00965CF6;
+			remoteInfo = "FBYVideoPlayer-iOS";
+		};
+		457177582072120B00965CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4571772C2072120B00965CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457177332072120B00965CF6;
+			remoteInfo = "FBYVideoPlayer-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457177342072120B00965CF6 /* FBYVideoPlayer-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBYVideoPlayer-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457177372072120B00965CF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		457177382072120B00965CF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4571773A2072120B00965CF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4571773B2072120B00965CF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4571773E2072120B00965CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		457177402072120B00965CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457177432072120B00965CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		457177452072120B00965CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457177462072120B00965CF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4571774C2072120B00965CF6 /* FBYVideoPlayer-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYVideoPlayer-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457177502072120B00965CF6 /* FBYVideoPlayer_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYVideoPlayer_iOSTests.m; sourceTree = "<group>"; };
+		457177522072120B00965CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457177572072120B00965CF6 /* FBYVideoPlayer-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYVideoPlayer-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4571775B2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYVideoPlayer_iOSUITests.m; sourceTree = "<group>"; };
+		4571775D2072120B00965CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457177312072120B00965CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457177492072120B00965CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457177542072120B00965CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4571772B2072120B00965CF6 = {
+			isa = PBXGroup;
+			children = (
+				457177362072120B00965CF6 /* FBYVideoPlayer-iOS */,
+				4571774F2072120B00965CF6 /* FBYVideoPlayer-iOSTests */,
+				4571775A2072120B00965CF6 /* FBYVideoPlayer-iOSUITests */,
+				457177352072120B00965CF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457177352072120B00965CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457177342072120B00965CF6 /* FBYVideoPlayer-iOS.app */,
+				4571774C2072120B00965CF6 /* FBYVideoPlayer-iOSTests.xctest */,
+				457177572072120B00965CF6 /* FBYVideoPlayer-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457177362072120B00965CF6 /* FBYVideoPlayer-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				457177372072120B00965CF6 /* AppDelegate.h */,
+				457177382072120B00965CF6 /* AppDelegate.m */,
+				4571773A2072120B00965CF6 /* ViewController.h */,
+				4571773B2072120B00965CF6 /* ViewController.m */,
+				4571773D2072120B00965CF6 /* Main.storyboard */,
+				457177402072120B00965CF6 /* Assets.xcassets */,
+				457177422072120B00965CF6 /* LaunchScreen.storyboard */,
+				457177452072120B00965CF6 /* Info.plist */,
+				457177462072120B00965CF6 /* main.m */,
+			);
+			path = "FBYVideoPlayer-iOS";
+			sourceTree = "<group>";
+		};
+		4571774F2072120B00965CF6 /* FBYVideoPlayer-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				457177502072120B00965CF6 /* FBYVideoPlayer_iOSTests.m */,
+				457177522072120B00965CF6 /* Info.plist */,
+			);
+			path = "FBYVideoPlayer-iOSTests";
+			sourceTree = "<group>";
+		};
+		4571775A2072120B00965CF6 /* FBYVideoPlayer-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4571775B2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m */,
+				4571775D2072120B00965CF6 /* Info.plist */,
+			);
+			path = "FBYVideoPlayer-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457177332072120B00965CF6 /* FBYVideoPlayer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457177602072120B00965CF6 /* Build configuration list for PBXNativeTarget "FBYVideoPlayer-iOS" */;
+			buildPhases = (
+				457177302072120B00965CF6 /* Sources */,
+				457177312072120B00965CF6 /* Frameworks */,
+				457177322072120B00965CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FBYVideoPlayer-iOS";
+			productName = "FBYVideoPlayer-iOS";
+			productReference = 457177342072120B00965CF6 /* FBYVideoPlayer-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4571774B2072120B00965CF6 /* FBYVideoPlayer-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457177632072120B00965CF6 /* Build configuration list for PBXNativeTarget "FBYVideoPlayer-iOSTests" */;
+			buildPhases = (
+				457177482072120B00965CF6 /* Sources */,
+				457177492072120B00965CF6 /* Frameworks */,
+				4571774A2072120B00965CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4571774E2072120B00965CF6 /* PBXTargetDependency */,
+			);
+			name = "FBYVideoPlayer-iOSTests";
+			productName = "FBYVideoPlayer-iOSTests";
+			productReference = 4571774C2072120B00965CF6 /* FBYVideoPlayer-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457177562072120B00965CF6 /* FBYVideoPlayer-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457177662072120B00965CF6 /* Build configuration list for PBXNativeTarget "FBYVideoPlayer-iOSUITests" */;
+			buildPhases = (
+				457177532072120B00965CF6 /* Sources */,
+				457177542072120B00965CF6 /* Frameworks */,
+				457177552072120B00965CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457177592072120B00965CF6 /* PBXTargetDependency */,
+			);
+			name = "FBYVideoPlayer-iOSUITests";
+			productName = "FBYVideoPlayer-iOSUITests";
+			productReference = 457177572072120B00965CF6 /* FBYVideoPlayer-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4571772C2072120B00965CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "FBYVideoPlayer-iOS";
+				TargetAttributes = {
+					457177332072120B00965CF6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4571774B2072120B00965CF6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 457177332072120B00965CF6;
+					};
+					457177562072120B00965CF6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 457177332072120B00965CF6;
+					};
+				};
+			};
+			buildConfigurationList = 4571772F2072120B00965CF6 /* Build configuration list for PBXProject "FBYVideoPlayer-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4571772B2072120B00965CF6;
+			productRefGroup = 457177352072120B00965CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457177332072120B00965CF6 /* FBYVideoPlayer-iOS */,
+				4571774B2072120B00965CF6 /* FBYVideoPlayer-iOSTests */,
+				457177562072120B00965CF6 /* FBYVideoPlayer-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457177322072120B00965CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457177442072120B00965CF6 /* LaunchScreen.storyboard in Resources */,
+				457177412072120B00965CF6 /* Assets.xcassets in Resources */,
+				4571773F2072120B00965CF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4571774A2072120B00965CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457177552072120B00965CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457177302072120B00965CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571773C2072120B00965CF6 /* ViewController.m in Sources */,
+				457177472072120B00965CF6 /* main.m in Sources */,
+				457177392072120B00965CF6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457177482072120B00965CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457177512072120B00965CF6 /* FBYVideoPlayer_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457177532072120B00965CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571775C2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4571774E2072120B00965CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457177332072120B00965CF6 /* FBYVideoPlayer-iOS */;
+			targetProxy = 4571774D2072120B00965CF6 /* PBXContainerItemProxy */;
+		};
+		457177592072120B00965CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457177332072120B00965CF6 /* FBYVideoPlayer-iOS */;
+			targetProxy = 457177582072120B00965CF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4571773D2072120B00965CF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4571773E2072120B00965CF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		457177422072120B00965CF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457177432072120B00965CF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4571775E2072120B00965CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4571775F2072120B00965CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457177612072120B00965CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYVideoPlayer-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		457177622072120B00965CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYVideoPlayer-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		457177642072120B00965CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYVideoPlayer-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBYVideoPlayer-iOS.app/FBYVideoPlayer-iOS";
+			};
+			name = Debug;
+		};
+		457177652072120B00965CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYVideoPlayer-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBYVideoPlayer-iOS.app/FBYVideoPlayer-iOS";
+			};
+			name = Release;
+		};
+		457177672072120B00965CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYVideoPlayer-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FBYVideoPlayer-iOS";
+			};
+			name = Debug;
+		};
+		457177682072120B00965CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				INFOPLIST_FILE = "FBYVideoPlayer-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FBYVideoPlayer-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4571772F2072120B00965CF6 /* Build configuration list for PBXProject "FBYVideoPlayer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4571775E2072120B00965CF6 /* Debug */,
+				4571775F2072120B00965CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457177602072120B00965CF6 /* Build configuration list for PBXNativeTarget "FBYVideoPlayer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457177612072120B00965CF6 /* Debug */,
+				457177622072120B00965CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457177632072120B00965CF6 /* Build configuration list for PBXNativeTarget "FBYVideoPlayer-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457177642072120B00965CF6 /* Debug */,
+				457177652072120B00965CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457177662072120B00965CF6 /* Build configuration list for PBXNativeTarget "FBYVideoPlayer-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457177672072120B00965CF6 /* Debug */,
+				457177682072120B00965CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4571772C2072120B00965CF6 /* Project object */;
+}
