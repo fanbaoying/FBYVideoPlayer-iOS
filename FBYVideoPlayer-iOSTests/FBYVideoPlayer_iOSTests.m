@@ -2,7 +2,7 @@
 //  FBYVideoPlayer_iOSTests.m
 //  FBYVideoPlayer-iOSTests
 //
-//  Created by 范保莹 on 2018/4/2.
+//  Created by fby on 2018/4/2.
 //  Copyright © 2018年 FBYVideoPlayer-iOS. All rights reserved.
 //
 

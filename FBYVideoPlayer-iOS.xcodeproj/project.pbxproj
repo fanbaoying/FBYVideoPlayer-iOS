@@ -15,6 +15,17 @@
 		457177472072120B00965CF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457177462072120B00965CF6 /* main.m */; };
 		457177512072120B00965CF6 /* FBYVideoPlayer_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457177502072120B00965CF6 /* FBYVideoPlayer_iOSTests.m */; };
 		4571775C2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571775B2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m */; };
+		4571776E20721B2300965CF6 /* FBYVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571776D20721B2300965CF6 /* FBYVideoPlayer.m */; };
+		4571777120721D6A00965CF6 /* FBYVideoDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571777020721D6A00965CF6 /* FBYVideoDownload.m */; };
+		4571778320721DA000965CF6 /* UIImage+ComPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571778120721DA000965CF6 /* UIImage+ComPress.m */; };
+		4571778A20721DC400965CF6 /* video_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4571778520721DC400965CF6 /* video_start@2x.png */; };
+		4571778B20721DC400965CF6 /* normal_blowup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4571778620721DC400965CF6 /* normal_blowup@2x.png */; };
+		4571778C20721DC400965CF6 /* full_blowup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4571778720721DC400965CF6 /* full_blowup@2x.png */; };
+		4571778D20721DC400965CF6 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4571778820721DC400965CF6 /* back@2x.png */; };
+		4571778E20721DC400965CF6 /* video_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4571778920721DC400965CF6 /* video_stop@2x.png */; };
+		457177912072255D00965CF6 /* FBYVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457177902072255D00965CF6 /* FBYVideoPlayerView.m */; };
+		4571779420730AC000965CF6 /* FBYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571779320730AC000965CF6 /* FBYModel.m */; };
+		4571779D20730DB200965CF6 /* NSString+FBYFileHandlePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571779C20730DB200965CF6 /* NSString+FBYFileHandlePath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,24 @@
 		457177572072120B00965CF6 /* FBYVideoPlayer-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYVideoPlayer-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4571775B2072120B00965CF6 /* FBYVideoPlayer_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYVideoPlayer_iOSUITests.m; sourceTree = "<group>"; };
 		4571775D2072120B00965CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4571776B2072196200965CF6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4571776C20721B2300965CF6 /* FBYVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYVideoPlayer.h; sourceTree = "<group>"; };
+		4571776D20721B2300965CF6 /* FBYVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYVideoPlayer.m; sourceTree = "<group>"; };
+		4571776F20721D6A00965CF6 /* FBYVideoDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYVideoDownload.h; sourceTree = "<group>"; };
+		4571777020721D6A00965CF6 /* FBYVideoDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYVideoDownload.m; sourceTree = "<group>"; };
+		4571777F20721D9F00965CF6 /* UIImage+ComPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ComPress.h"; sourceTree = "<group>"; };
+		4571778120721DA000965CF6 /* UIImage+ComPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ComPress.m"; sourceTree = "<group>"; };
+		4571778520721DC400965CF6 /* video_start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_start@2x.png"; sourceTree = "<group>"; };
+		4571778620721DC400965CF6 /* normal_blowup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal_blowup@2x.png"; sourceTree = "<group>"; };
+		4571778720721DC400965CF6 /* full_blowup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_blowup@2x.png"; sourceTree = "<group>"; };
+		4571778820721DC400965CF6 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		4571778920721DC400965CF6 /* video_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_stop@2x.png"; sourceTree = "<group>"; };
+		4571778F2072255D00965CF6 /* FBYVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYVideoPlayerView.h; sourceTree = "<group>"; };
+		457177902072255D00965CF6 /* FBYVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYVideoPlayerView.m; sourceTree = "<group>"; };
+		4571779220730AC000965CF6 /* FBYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYModel.h; sourceTree = "<group>"; };
+		4571779320730AC000965CF6 /* FBYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYModel.m; sourceTree = "<group>"; };
+		4571779B20730DB200965CF6 /* NSString+FBYFileHandlePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FBYFileHandlePath.h"; sourceTree = "<group>"; };
+		4571779C20730DB200965CF6 /* NSString+FBYFileHandlePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBYFileHandlePath.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +130,8 @@
 		457177362072120B00965CF6 /* FBYVideoPlayer-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4571776A2072195A00965CF6 /* Pch */,
+				457177692072135B00965CF6 /* FBYVideoData */,
 				457177372072120B00965CF6 /* AppDelegate.h */,
 				457177382072120B00965CF6 /* AppDelegate.m */,
 				4571773A2072120B00965CF6 /* ViewController.h */,
@@ -130,6 +161,46 @@
 				4571775D2072120B00965CF6 /* Info.plist */,
 			);
 			path = "FBYVideoPlayer-iOSUITests";
+			sourceTree = "<group>";
+		};
+		457177692072135B00965CF6 /* FBYVideoData */ = {
+			isa = PBXGroup;
+			children = (
+				4571778420721DB800965CF6 /* FBYVideoImage */,
+				4571779B20730DB200965CF6 /* NSString+FBYFileHandlePath.h */,
+				4571779C20730DB200965CF6 /* NSString+FBYFileHandlePath.m */,
+				4571777F20721D9F00965CF6 /* UIImage+ComPress.h */,
+				4571778120721DA000965CF6 /* UIImage+ComPress.m */,
+				4571779220730AC000965CF6 /* FBYModel.h */,
+				4571779320730AC000965CF6 /* FBYModel.m */,
+				4571778F2072255D00965CF6 /* FBYVideoPlayerView.h */,
+				457177902072255D00965CF6 /* FBYVideoPlayerView.m */,
+				4571776C20721B2300965CF6 /* FBYVideoPlayer.h */,
+				4571776D20721B2300965CF6 /* FBYVideoPlayer.m */,
+				4571776F20721D6A00965CF6 /* FBYVideoDownload.h */,
+				4571777020721D6A00965CF6 /* FBYVideoDownload.m */,
+			);
+			path = FBYVideoData;
+			sourceTree = "<group>";
+		};
+		4571776A2072195A00965CF6 /* Pch */ = {
+			isa = PBXGroup;
+			children = (
+				4571776B2072196200965CF6 /* PrefixHeader.pch */,
+			);
+			path = Pch;
+			sourceTree = "<group>";
+		};
+		4571778420721DB800965CF6 /* FBYVideoImage */ = {
+			isa = PBXGroup;
+			children = (
+				4571778820721DC400965CF6 /* back@2x.png */,
+				4571778620721DC400965CF6 /* normal_blowup@2x.png */,
+				4571778720721DC400965CF6 /* full_blowup@2x.png */,
+				4571778520721DC400965CF6 /* video_start@2x.png */,
+				4571778920721DC400965CF6 /* video_stop@2x.png */,
+			);
+			path = FBYVideoImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				457177442072120B00965CF6 /* LaunchScreen.storyboard in Resources */,
+				4571778C20721DC400965CF6 /* full_blowup@2x.png in Resources */,
+				4571778E20721DC400965CF6 /* video_stop@2x.png in Resources */,
 				457177412072120B00965CF6 /* Assets.xcassets in Resources */,
+				4571778D20721DC400965CF6 /* back@2x.png in Resources */,
 				4571773F2072120B00965CF6 /* Main.storyboard in Resources */,
+				4571778A20721DC400965CF6 /* video_start@2x.png in Resources */,
+				4571778B20721DC400965CF6 /* normal_blowup@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4571776E20721B2300965CF6 /* FBYVideoPlayer.m in Sources */,
 				4571773C2072120B00965CF6 /* ViewController.m in Sources */,
 				457177472072120B00965CF6 /* main.m in Sources */,
+				457177912072255D00965CF6 /* FBYVideoPlayerView.m in Sources */,
+				4571777120721D6A00965CF6 /* FBYVideoDownload.m in Sources */,
+				4571778320721DA000965CF6 /* UIImage+ComPress.m in Sources */,
+				4571779D20730DB200965CF6 /* NSString+FBYFileHandlePath.m in Sources */,
+				4571779420730AC000965CF6 /* FBYModel.m in Sources */,
 				457177392072120B00965CF6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FBYVideoPlayer-iOS/Pch/PrefixHeader.pch";
 				INFOPLIST_FILE = "FBYVideoPlayer-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOS";
@@ -446,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FBYVideoPlayer-iOS/Pch/PrefixHeader.pch";
 				INFOPLIST_FILE = "FBYVideoPlayer-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYVideoPlayer-iOS.a.FBYVideoPlayer-iOS";
